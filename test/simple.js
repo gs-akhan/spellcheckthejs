@@ -1,0 +1,1 @@
+var bad_text = "thiz is soem veri bad tetx";
