@@ -4,7 +4,7 @@ var speller = require("speller"),
 
 // train the speller
 var setup = function() {
-	speller.train(fs.readFileSync(__dirname + (process.argv[3] || "/big.txt"), "ascii"));
+	speller.train(fs.readFileSync(process.argv[3] || (__dirname + "/big.txt"), "ascii"));
 };
 
 // provide suggestions for misspellings
