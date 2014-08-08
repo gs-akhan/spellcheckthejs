@@ -6,7 +6,11 @@ This small script helps Javascript developers spellcheck their strings.
 
 Make sure you have Node.js and npm properly set up in your `PATH`. Simply install the `speller` and `uglify-js` libraries from `npm`:
 
-	npm install speller uglify-js
+Hit
+```
+npm install
+```
+to install all the dependencies
 
 ## Usage
 

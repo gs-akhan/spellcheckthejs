@@ -1,0 +1,29 @@
+{
+  "name": "spellcheckthejs",
+  "version": "0.1.0",
+  "description": "Module to spell check JS files",
+  "main": "spellcheckthejs.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies" : {
+	"uglify-js": "1.x.x",
+	"speller" : "*"  
+},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gs-akhan/spellcheckthejs.git"
+  },
+  "keywords": [
+    "spellcheck"
+  ],
+  "author": "ruidlopes, azhar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruidlopes/spellcheckthejs/issues"
+  },
+  "homepage": "https://github.com/ruidlopes/spellcheckthejs"
+}
